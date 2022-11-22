@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:red;
+    text-align: center;
+    padding-top:30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    height: 100px;
+    background-color: darkkhaki; /* Aplica el color de fondo */
+    /* border: 3px solid black; */
+    border-radius: 30px 0px 30px 0px;
+}
+.container{
+    background-color: blue;
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    gap:10px;
+}
+.container > div{
+    height: 100px;
+    width: 250px;
+    background-color: brown;
+}
+#notas{
+    background-color: blanchedalmond;
+}
+#promedios{
+    background-color:chartreuse;
+    
+}
+img{
+    height: 50px ;
+    width: 80px;
+    margin-left: 60px;
+}
+/* Sesion virtual del 18 de octubre 2022 */
+a{
+    text-decoration: none;
+}
+nav > a{
+    padding: 50px;
+}
